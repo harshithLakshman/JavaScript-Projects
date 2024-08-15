@@ -1,0 +1,48 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    display: flex;
+    margin: 0;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.choices{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.choices button{
+    font-size: 7.5rem;
+    min-width: 160px;
+    margin: 10px;
+    border-radius: 250px;
+    background-color: aqua;
+    cursor: pointer;
+    transition: background-color 0.5s ease;
+
+}
+
+.choices button:hover{
+    background-color: hsl(200, 100%, 70%);
+}
+
+
+h1{
+    font-size: 3.5rem;
+    color: hsl(0, 5%, 37%);
+}
+
+#playerDisplay, #computerDisplay{
+    font-size: 2.5rem;
+}
+
+#resultDisplay{
+    font-size: 5rem;
+}
+
+
+
+
+
